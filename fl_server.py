@@ -74,7 +74,7 @@ def load_data(dataset):
 
 if __name__ == "__main__":
     # Read server config file
-    config_file_path = '../config.yaml'
+    config_file_path = './config.yaml'
     config = server_utils.read_config(config_file_path)
 
     # Dataset Name
